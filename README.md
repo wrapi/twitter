@@ -6,7 +6,7 @@ Client interface for accessing [Twitter REST API](https://dev.twitter.com/rest/p
 Create a client object to connect to Twitter API endpoints.
 
 ```JS
-var twitterWrapi = require('twitter-wrapi.js');
+var twitterWrapi = require('twitter-wrapi');
 
 var client = new twitterWrapi({
   consumer_key: 'YOUR_CONSUMER_KEY',			// Consumer Key (API Key)
