@@ -1,0 +1,18 @@
+{
+	"list" : {
+		"method": "GET",
+		"path": "list.json"
+	},
+	"ids" : {
+		"method": "GET",
+		"path": "ids.json"
+	},
+	"create" : {
+		"method": "POST",
+		"path": "create.json"
+	},
+	"destroy" : {
+		"method": "POST",
+		"path": "destroy.json"
+	}
+}

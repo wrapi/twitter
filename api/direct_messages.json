@@ -1,0 +1,22 @@
+{
+	"get" : {
+		"method": "GET",
+		"path": "../direct_messages.json"
+	},
+	"sent" : {
+		"method": "GET",
+		"path": "sent.json"
+	},
+	"show" : {
+		"method": "GET",
+		"path": "show.json"
+	},
+	"destroy" : {
+		"method": "POST",
+		"path": "destroy.json"
+	},
+	"new" : {
+		"method": "POST",
+		"path": "new.json"
+	}
+}

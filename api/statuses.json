@@ -1,0 +1,54 @@
+{
+	"mentions_timeline" : {
+		"method": "GET",
+		"path": "mentions_timeline.json"
+	},
+	"user_timeline" : {
+		"method": "GET",
+		"path": "user_timeline.json"
+	},
+	"home_timeline" : {
+		"method": "GET",
+		"path": "home_timeline.json"
+	},
+	"retweets_of_me" : {
+		"method": "GET",
+		"path": "retweets_of_me.json"
+	},
+	"retweets" : {
+		"method": "GET",
+		"path": "retweets/:id.json"
+	},
+	"show" : {
+		"method": "GET",
+		"path": "show/:id.json"
+	},
+	"destroy" : {
+		"method": "POST",
+		"path": "destroy/:id.json"
+	},
+	"update" : {
+		"method": "POST",
+		"path": "update.json"
+	},
+	"retweet" : {
+		"method": "POST",
+		"path": "retweet/:id.json"
+	},
+	"update_with_media" : {
+		"method": "POST",
+		"path": "update_with_media.json"
+	},
+	"oembed" : {
+		"method": "GET",
+		"path": "oembed.json"
+	},
+	"retweeters/ids" : {
+		"method": "GET",
+		"path": "retweeters/ids.json"
+	},
+	"lookup" : {
+		"method": "GET",
+		"path": "lookup.json"
+	}
+}

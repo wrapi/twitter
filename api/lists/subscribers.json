@@ -1,0 +1,18 @@
+{
+	"get" : {
+		"method": "GET",
+		"path": "../subscribers.json"
+	},
+	"create" : {
+		"method": "POST",
+		"path": "create.json"
+	},
+	"show" : {
+		"method": "GET",
+		"path": "show.json"
+	},
+	"destroy" : {
+		"method": "POST",
+		"path": "destroy.json"
+	}
+}

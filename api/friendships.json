@@ -1,0 +1,30 @@
+{
+	"no_retweets" : {
+		"method": "GET",
+		"path": "no_retweets/ids.json"
+	},
+	"incoming" : {
+		"method": "GET",
+		"path": "incoming.json"
+	},
+	"outgoing" : {
+		"method": "GET",
+		"path": "outgoing.json"
+	},
+	"create" : {
+		"method": "POST",
+		"path": "create.json"
+	},
+	"update" : {
+		"method": "POST",
+		"path": "update.json"
+	},
+	"show" : {
+		"method": "GET",
+		"path": "show.json"
+	},
+	"lookup" : {
+		"method": "GET",
+		"path": "lookup.json"
+	}
+}

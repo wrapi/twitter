@@ -1,0 +1,18 @@
+{
+	"configuration" : {
+		"method": "GET",
+		"path": "configuration.json"
+	},
+	"languages" : {
+		"method": "GET",
+		"path": "languages.json"
+	},
+	"privacy" : {
+		"method": "GET",
+		"path": "privacy.json"
+	},
+	"tos" : {
+		"method": "GET",
+		"path": "tos.json"
+	}
+}

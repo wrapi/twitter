@@ -1,0 +1,14 @@
+{
+	"get" : {
+		"method": "GET",
+		"path": "../suggestions.json"
+	},
+	"slug" : {
+		"method": "GET",
+		"path": ":slug.json"
+	},
+	"members" : {
+		"method": "GET",
+		"path": ":slug/members.json"
+	}
+}

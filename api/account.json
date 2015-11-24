@@ -1,0 +1,30 @@
+{
+	"account" : {
+		"method": "GET",
+		"path": "settings.json"
+	},
+	"verify_credentials" : {
+		"method": "GET",
+		"path": "verify_credentials.json"
+	},
+	"settings" : {
+		"method": "POST",
+		"path": "settings.json"
+	},
+	"update_delivery_device" : {
+		"method": "POST",
+		"path": "update_delivery_device.json"
+	},
+	"update_profile" : {
+		"method": "POST",
+		"path": "update_profile.json"
+	},
+	"update_profile_background_image" : {
+		"method": "POST",
+		"path": "update_profile_background_image.json"
+	},
+	"update_profile_image" : {
+		"method": "POST",
+		"path": "update_profile_image.json"
+	}
+}

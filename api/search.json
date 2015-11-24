@@ -1,0 +1,6 @@
+{
+	"tweets" : {
+		"method": "GET",
+		"path": "tweets.json"
+	}
+}
