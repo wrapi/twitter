@@ -70,7 +70,22 @@ client.friends.list({
 	}
 );
 ```
-
+#### Search
+```JS
+client.search.tweets({
+  q: "#freebandnames",
+  since_id: "24012619984051000",
+  max_id: "250126199840518145",
+  result_type: "mixed",
+  count:4
+  }, 
+  function(err, data) {
+    if (!err) {
+      console.log(data);
+    } 
+  }
+);
+```
 #### Create a saved search
 ```JS
 client.saved_searches.create({query: "sandwiches"}, function(err, data) {
@@ -80,7 +95,7 @@ client.saved_searches.create({query: "sandwiches"}, function(err, data) {
 });
 ```
 
-## API Endpoints
+## API Functions
 
 ### Statuses
 * [statuses.mentions_timeline](https://dev.twitter.com/rest/reference/get/statuses/mentions_timeline)
