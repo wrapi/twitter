@@ -31,7 +31,7 @@
     "url": "https://github.com/wrapi/twitter/issues"
   },
   "dependencies": {
-    "wrapi": "^0.1.3"
+    "wrapi": "^0.1.4"
   },
   "engines": {
     "node": ">= 0.10.0"
