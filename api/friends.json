@@ -1,10 +1,10 @@
 {
 	"ids" : {
 		"method": "GET",
-		"path": "ids.json"
+		"path": "friends/ids.json"
 	},
 	"list" : {
 		"method": "GET",
-		"path": "list.json"
+		"path": "friends/list.json"
 	}
 }

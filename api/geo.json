@@ -1,18 +1,18 @@
 {
 	"id" : {
 		"method": "GET",
-		"path": "id/:place_id.json"
+		"path": "geo/id/:place_id.json"
 	},
 	"reverse_geocode" : {
 		"method": "GET",
-		"path": "reverse_geocode.json"
+		"path": "geo/reverse_geocode.json"
 	},
 	"search" : {
 		"method": "GET",
-		"path": "search.json"
+		"path": "geo/search.json"
 	},
 	"place" : {
 		"method": "POST",
-		"path": "place.json"
+		"path": "geo/place.json"
 	}
 }

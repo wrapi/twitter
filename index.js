@@ -40,7 +40,7 @@ var listsEndpoints = {
   token_secret: 'ACCESS_TOKEN_SECRET'
 }
 */
-var twitterWrapi = function(keys) {
+function twitterWrapi(keys) {
 
   var opts = {
     oauth: keys,
@@ -52,20 +52,27 @@ var twitterWrapi = function(keys) {
     }
   };
 
-  function append(obj, suffix, endpoints) {
+  function build(obj, prefix, endpoints) {
     for (var name in endpoints) {
-      obj[name] = new wrapi('https://api.twitter.com/1.1/' + suffix + name + '/', 
-        endpoints[name], 
-        opts
-      );
+      var pre = (prefix == '') ? name : (prefix + '.' + name);
+      for (var sub in endpoints[name]) {
+        obj[pre + '.' + sub] = endpoints[name][sub];
+      }
     }
   }
 
-  append(this, '', endpoints);
-  append(this.users, 'users/', usersEndPoints);
-  append(this.lists, 'lists/', listsEndpoints);
+  var all = {};
+  build(all, '', endpoints);
+  build(all, 'users', usersEndPoints);
+  build(all, 'lists', listsEndpoints);
+
+  wrapi.call(this,
+            'https://api.twitter.com/1.1/',
+            all,
+            opts);  
 };
 
-
+twitterWrapi.prototype = Object.create(wrapi.prototype);
+twitterWrapi.prototype.constructor = twitterWrapi;
 
 module.exports = twitterWrapi;

@@ -1,14 +1,14 @@
 {
 	"list" : {
 		"method": "GET",
-		"path": "list.json"
+		"path": "favorites/list.json"
 	},
 	"create" : {
 		"method": "POST",
-		"path": "create.json"
+		"path": "favorites/create.json"
 	},
 	"destroy" : {
 		"method": "POST",
-		"path": "destroy.json"
+		"path": "favorites/destroy.json"
 	}
 }

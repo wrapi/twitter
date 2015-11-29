@@ -1,14 +1,14 @@
 {
 	"get" : {
 		"method": "GET",
-		"path": "../suggestions.json"
+		"path": "users/suggestions.json"
 	},
 	"slug" : {
 		"method": "GET",
-		"path": ":slug.json"
+		"path": "users/suggestions/:slug.json"
 	},
 	"members" : {
 		"method": "GET",
-		"path": ":slug/members.json"
+		"path": "users/suggestions/:slug/members.json"
 	}
 }

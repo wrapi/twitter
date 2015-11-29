@@ -1,18 +1,18 @@
 {
 	"list" : {
 		"method": "GET",
-		"path": "list.json"
+		"path": "blocks/blocks/list.json"
 	},
 	"ids" : {
 		"method": "GET",
-		"path": "ids.json"
+		"path": "blocks/ids.json"
 	},
 	"create" : {
 		"method": "POST",
-		"path": "create.json"
+		"path": "blocks/create.json"
 	},
 	"destroy" : {
 		"method": "POST",
-		"path": "destroy.json"
+		"path": "blocks/destroy.json"
 	}
 }

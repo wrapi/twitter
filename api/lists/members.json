@@ -1,26 +1,26 @@
 {
 	"get" : {
 		"method": "GET",
-		"path": "../members.json"
+		"path": "lists/members.json"
 	},
 	"destroy" : {
 		"method": "POST",
-		"path": "destroy.json"
+		"path": "lists/members/destroy.json"
 	},
 	"create_all" : {
 		"method": "POST",
-		"path": "create_all.json"
+		"path": "lists/members/create_all.json"
 	},
 	"show" : {
 		"method": "GET",
-		"path": "show.json"
+		"path": "lists/members/show.json"
 	},
 	"create" : {
 		"method": "POST",
-		"path": "create.json"
+		"path": "lists/members/create.json"
 	},
 	"destroy_all" : {
 		"method": "POST",
-		"path": "destroy_all.json"
+		"path": "lists/members/destroy_all.json"
 	}	
 }

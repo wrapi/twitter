@@ -1,22 +1,22 @@
 {
 	"lookup" : {
 		"method": "GET",
-		"path": "lookup.json"
+		"path": "users/lookup.json"
 	},
 	"show" : {
 		"method": "GET",
-		"path": "show.json"
+		"path": "users/show.json"
 	},
 	"search" : {
 		"method": "GET",
-		"path": "search.json"
+		"path": "users/search.json"
 	},
 	"profile_banner" : {
 		"method": "GET",
-		"path": "profile_banner.json"
+		"path": "users/profile_banner.json"
 	},
 	"report_spam" : {
 		"method": "POST",
-		"path": "report_spam.json"
+		"path": "users/report_spam.json"
 	}
 }

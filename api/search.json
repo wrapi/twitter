@@ -1,6 +1,6 @@
 {
 	"tweets" : {
 		"method": "GET",
-		"path": "tweets.json"
+		"path": "search/tweets.json"
 	}
 }

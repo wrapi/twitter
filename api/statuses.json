@@ -1,54 +1,54 @@
 {
 	"mentions_timeline" : {
 		"method": "GET",
-		"path": "mentions_timeline.json"
+		"path": "statuses/mentions_timeline.json"
 	},
 	"user_timeline" : {
 		"method": "GET",
-		"path": "user_timeline.json"
+		"path": "statuses/statuses/user_timeline.json"
 	},
 	"home_timeline" : {
 		"method": "GET",
-		"path": "home_timeline.json"
+		"path": "statuses/home_timeline.json"
 	},
 	"retweets_of_me" : {
 		"method": "GET",
-		"path": "retweets_of_me.json"
+		"path": "statuses/retweets_of_me.json"
 	},
 	"retweets" : {
 		"method": "GET",
-		"path": "retweets/:id.json"
+		"path": "statuses/retweets/:id.json"
 	},
 	"show" : {
 		"method": "GET",
-		"path": "show/:id.json"
+		"path": "statuses/show/:id.json"
 	},
 	"destroy" : {
 		"method": "POST",
-		"path": "destroy/:id.json"
+		"path": "statuses/destroy/:id.json"
 	},
 	"update" : {
 		"method": "POST",
-		"path": "update.json"
+		"path": "statuses/update.json"
 	},
 	"retweet" : {
 		"method": "POST",
-		"path": "retweet/:id.json"
+		"path": "statuses/retweet/:id.json"
 	},
 	"update_with_media" : {
 		"method": "POST",
-		"path": "update_with_media.json"
+		"path": "statuses/update_with_media.json"
 	},
 	"oembed" : {
 		"method": "GET",
-		"path": "oembed.json"
+		"path": "statuses/oembed.json"
 	},
-	"retweeters/ids" : {
+	"retweeters.ids" : {
 		"method": "GET",
-		"path": "retweeters/ids.json"
+		"path": "statuses/retweeters/ids.json"
 	},
 	"lookup" : {
 		"method": "GET",
-		"path": "lookup.json"
+		"path": "statuses/lookup.json"
 	}
 }

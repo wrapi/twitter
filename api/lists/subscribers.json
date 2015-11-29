@@ -1,18 +1,18 @@
 {
 	"get" : {
 		"method": "GET",
-		"path": "../subscribers.json"
+		"path": "lists/subscribers.json"
 	},
 	"create" : {
 		"method": "POST",
-		"path": "create.json"
+		"path": "lists/subscribers/create.json"
 	},
 	"show" : {
 		"method": "GET",
-		"path": "show.json"
+		"path": "lists/subscribers/show.json"
 	},
 	"destroy" : {
 		"method": "POST",
-		"path": "destroy.json"
+		"path": "lists/subscribers/destroy.json"
 	}
 }

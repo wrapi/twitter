@@ -1,18 +1,18 @@
 {
 	"list" : {
 		"method": "GET",
-		"path": "list.json"
+		"path": "saved_searches/saved_searches/list.json"
 	},
 	"show" : {
 		"method": "GET",
-		"path": "show/:id.json"
+		"path": "saved_searches/show/:id.json"
 	},
 	"create" : {
 		"method": "POST",
-		"path": "create.json"
+		"path": "saved_searches/create.json"
 	},
 	"destroy" : {
 		"method": "POST",
-		"path": "destroy/:id.json"
+		"path": "saved_searches/destroy/:id.json"
 	}
 }

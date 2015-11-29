@@ -1,14 +1,14 @@
 {
 	"place" : {
 		"method": "GET",
-		"path": "place.json"
+		"path": "trends/trends/place.json"
 	},
 	"available" : {
 		"method": "GET",
-		"path": "available.json"
+		"path": "trends/available.json"
 	},
 	"closest" : {
 		"method": "GET",
-		"path": "closest.json"
+		"path": "trends/closest.json"
 	}
 }
