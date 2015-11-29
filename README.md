@@ -1,4 +1,4 @@
-# Twitter REST API Wrapper 
+# Twitter REST API Wrapper 🐦
 
 Client interface for accessing [Twitter REST API](https://dev.twitter.com/rest/public).
 
@@ -87,8 +87,9 @@ client.search.tweets({
 );
 ```
 #### Create a saved search
+This is a **POST** method call that expects a `body` content. Pass `null`, if body is not required.
 ```JS
-client.saved_searches.create({query: "sandwiches"}, function(err, data) {
+client.saved_searches.create({query: "sandwiches"}, null, function(err, data) {
   if (!err) {
     console.log(data);
   }	
@@ -109,7 +110,7 @@ client.saved_searches.create({query: "sandwiches"}, function(err, data) {
 * [statuses.retweet](https://dev.twitter.com/rest/reference/post/statuses/retweet/:id)
 * [statuses.update_with_media](https://dev.twitter.com/rest/reference/post/statuses/update_with_media)
 * [statuses.oembed](https://dev.twitter.com/rest/reference/get/statuses/oembed)
-* [statuses.retweeters/ids](https://dev.twitter.com/rest/reference/get/statuses/retweeters/ids)
+* [statuses.retweeters.ids](https://dev.twitter.com/rest/reference/get/statuses/retweeters/ids)
 * [statuses.lookup](https://dev.twitter.com/rest/reference/get/statuses/lookup)
 
 ### Media
