@@ -11,3 +11,5 @@ bin/
 .DS_Store
 Makefile
 .travis.yml
+*.log
+*.text
