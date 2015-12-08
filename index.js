@@ -1,6 +1,6 @@
 'use strict';
 
-
+var util = require('util');
 var wrapi = require('wrapi');
 
 var endpoints = {
@@ -66,13 +66,11 @@ function twitterWrapi(keys) {
   build(all, 'users', usersEndPoints);
   build(all, 'lists', listsEndpoints);
 
-  wrapi.call(this,
+  twitterWrapi.super_.call(this,
             'https://api.twitter.com/1.1/',
             all,
             opts);  
 };
 
-twitterWrapi.prototype = Object.create(wrapi.prototype);
-twitterWrapi.prototype.constructor = twitterWrapi;
-
+util.inherits(twitterWrapi, wrapi);
 module.exports = twitterWrapi;
