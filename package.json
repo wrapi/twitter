@@ -1,6 +1,6 @@
 {
   "name": "twitter-wrapi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wrapper for Twitter REST API",
   "homepage": "https://github.com/wrapi",
   "main": "index.js",
